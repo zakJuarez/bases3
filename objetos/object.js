@@ -5,9 +5,6 @@
         age: 24,
         powers: ['Viajar en el tiempo', 'supervelocidad']
     };
-    // flash = {
-    //     name2: 'Otro nombre' 
-    // };
     flash = {
         name: 'Clack Kent',
         age: 25,

@@ -1,5 +1,23 @@
 "use strict";
 (() => {
+    class avenger {
+        constructor(name = 'no_name', power = 0) {
+            this.name = name;
+            this.power = power;
+        }
+    }
+    class flyingAvenger extends avenger {
+        constructor(name, power) {
+            super(name, power);
+            this.flying = true;
+        }
+    }
+    const Hulk = new avenger('Hulk', 9001);
+    const Falcon = new flyingAvenger('Falcon', 60);
+    console.log(Hulk);
+    console.log(Falcon);
+})();
+(() => {
     const avengers = {
         nick: 'Samuel L Jackson',
         ironman: 'Robert Dawni Jr',
@@ -15,9 +33,6 @@
     const captainAmerica = { name: 'Capital America', weapon: 'Shield' };
     const thor = { name: 'Thor', weapon: 'Mholnir' };
     const avengers = [ironman, captainAmerica, thor];
-    for (const avenger of avengers) {
-        console.log({ avenger });
-    }
 })();
 (() => {
     const getName = () => {

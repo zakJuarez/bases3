@@ -10,7 +10,7 @@
 
     const avengers = [ironman, captainAmerica, thor];
 
-    for (const avenger of avengers) {
-        console.log({avenger});
-    }
+    // for (const avenger of avengers) {
+    //     console.log({avenger});
+    // }
 })()

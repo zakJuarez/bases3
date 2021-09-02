@@ -1,7 +1,7 @@
 (() => {
-    console.log('let');
-    const nombre = 'Isaac';
-    console.log(nombre);
+    // console.log('let');
+    // const nombre = 'Isaac';
+    // console.log(nombre);
     const getName = () => {
         console.log('viejo getName');
     }

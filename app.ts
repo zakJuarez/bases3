@@ -56,7 +56,7 @@ const apocalipsis:apocalipsisType = {
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
 
-console.log(apocalipsis);
+// console.log(apocalipsis);
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique: (charlesType|apocalipsisType);
 

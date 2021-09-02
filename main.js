@@ -11,9 +11,15 @@
     const [capitan, ironman,] = avengerArr;
 })();
 (() => {
-    console.log('let');
-    const nombre = 'Isaac';
-    console.log(nombre);
+    const ironman = { name: 'Ironman', weapon: 'Armorsuir' };
+    const captainAmerica = { name: 'Capital America', weapon: 'Shield' };
+    const thor = { name: 'Thor', weapon: 'Mholnir' };
+    const avengers = [ironman, captainAmerica, thor];
+    for (const avenger of avengers) {
+        console.log({ avenger });
+    }
+})();
+(() => {
     const getName = () => {
         console.log('viejo getName');
     };

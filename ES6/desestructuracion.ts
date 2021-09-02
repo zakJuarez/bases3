@@ -20,10 +20,18 @@
     // const {poder, vision} =avengers
     // console.log(poder.toFixed(), vision.toUpperCase());
 
-    const printName = ({ironman, ...resto}: Avengers) => {
-        console.log(avengers.ironman, resto);
-    }
+    // const printName = ({ironman, ...resto}: Avengers) => {
+    //     console.log(avengers.ironman, resto);
+    // }
 
-    printName(avengers);
+    // printName(avengers);
+
+
+    // const avengerArr = ['Capitan America', 'IronMan', 'Hulk'];
+    const avengerArr: [string, boolean, number] = ['Capitan America', true, 150.5];
+    // const ironman =  avengerArr[1];
+
+    const [capitan,ironman,] = avengerArr
+    // console.log({capitan,ironman});
 
 })()

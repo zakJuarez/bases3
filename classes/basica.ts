@@ -10,10 +10,16 @@
             // this.team = team;
             // this.realName = realName;
         }
+
+        bio(){
+            return `${this.name} ( ${this.team})`
+        }
     }
 
-    const antman :Avenger = new Avenger('Antman','Captain', 'Scott Lang ');
+    // const antman :Avenger = new Avenger('Antman','Captain', 'Scott Lang ');
 
-    // console.log(antman);
-    // console.log(Avenger.avgAge );
+    // console.log(antman.bio());
+    // // console.log(Avenger.avgAge );
+
+    
 })()

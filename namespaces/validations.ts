@@ -9,4 +9,3 @@ namespace Validations{
 }
 
 console.log(Validations.validaText('Isaac'));
-console.log(Validations.validaDate())

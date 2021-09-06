@@ -15,4 +15,15 @@
         }
     };
 })();
+(() => {
+    const client = {
+        name: 'Isaac',
+        age: 25,
+        address: {
+            id: 123,
+            zip: 'asdasd',
+            city: 'New Mexico'
+        }
+    };
+})();
 //# sourceMappingURL=main.js.map

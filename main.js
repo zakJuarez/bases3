@@ -23,6 +23,9 @@
             id: 123,
             zip: 'asdasd',
             city: 'New Mexico'
+        },
+        getFullAddress(id) {
+            return this.address.city;
         }
     };
 })();

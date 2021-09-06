@@ -1,9 +1,10 @@
 (() => {
 
     interface Client {
-        name:string,
-        age?: number,
-        address: Address
+        name:string;
+        age?: number;
+        address: Address;
+        getFullAddress (id : string ): string;
     }
 
     interface Address{
@@ -19,6 +20,9 @@
             id: 123,
             zip: 'asdasd',
             city: 'New Mexico'
+        },
+        getFullAddress(id:string){
+            return this.address.city;
         }
     }
 
